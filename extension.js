@@ -38,3 +38,5 @@ const generateRandomString =( length, chars ) => {
         string += chars[ Math.floor( Math.random() * chars.length ) ];
     return string;
 }
+
+module.exports = { randomString }
