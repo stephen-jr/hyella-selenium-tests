@@ -3,10 +3,10 @@ module.exports = {
     dev:{
         url: "http://localhost:819/solutions/nipc/"
     },
+    // test:{
+    //     url: "https://nipcswip.hyella.com/"
+    // },
     test:{
-        url: "https://nipcswip.hyella.com/"
-    },
-    production:{
-        url: "http://swip.nipc.gov.ng/"
+        url: "http://swip.nipc.gov.ng/phase2/"
     }
 }

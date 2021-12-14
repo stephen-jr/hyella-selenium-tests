@@ -16,6 +16,8 @@ const randomString = ( options, varname ) => {
         case 'alphanumeric' : storedVars[ varname ] = randomAlphaNumeric( length ); break;
         default             : storedVars[ varname ] = randomAlphaNumeric( length );
     };
+
+    return storedVars;
 };
 
 const randomNumeric = ( length ) => {
